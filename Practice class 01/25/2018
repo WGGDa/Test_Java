@@ -1,0 +1,23 @@
+package new3;
+
+public class Actor {
+	
+	String firstname ;
+	String lastname ;
+			
+	
+public Actor(String first, String last) {
+	firstname = first;
+	lastname = last;
+}
+
+public static void main(String[]args) {
+	
+ Actor a = new Actor("Arnold", "Schwarzenegger");
+
+System.out.println(a.firstname);
+//write your main method 
+
+
+}
+}
